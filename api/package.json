@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js"
+  },
+  "author": "Francesco Magnani, Luca Rubboli",
+  "license": "ISC",
+  "description": "API Server for subjekt project",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.3"
+  }
+}
