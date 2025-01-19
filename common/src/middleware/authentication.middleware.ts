@@ -20,7 +20,7 @@ export async function authenticationHandler(
     }
     const accessToken = authorization.split(" ")[1];
     try {
-        const jwtRecord = Jwt.findOne({accessToken: accessToken});
+        const jwtRecord = await Jwt.findOne({accessToken: accessToken});
         if (jwtRecord == null) {
             return next(
                 new NotFoundError(

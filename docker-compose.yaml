@@ -1,0 +1,54 @@
+services:
+  # Rest api service
+  api-server:
+    build:
+      context: ./api
+    ports:
+      - "8080:8080"
+    environment:
+      - MONGODB_CONNECTION_STRING=mongodb://user:pass@mongodb:27017/?authMechanism=DEFAULT&directConnection=true
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    links:
+      - mongodb
+      - redis
+
+  # Authentication service
+  auth-server:
+    build:
+      context: ./auth
+    ports:
+      - "8180:8180"
+    environment:
+      - MONGODB_CONNECTION_STRING=mongodb://user:pass@mongodb:27017/?authMechanism=DEFAULT&directConnection=true
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - PRODUCTION=true
+    links:
+      - mongodb
+      - redis
+
+  # Mongodb service
+  mongodb:
+    image: mongodb/mongodb-community-server:4.4.12-ubi8
+    environment:
+      - MONGODB_INITDB_ROOT_USERNAME=user
+      - MONGODB_INITDB_ROOT_PASSWORD=pass
+    ports:
+      - "27017:27017"
+    volumes:
+      - type: bind
+        source: ./dbdata
+        target: /data/db
+
+  # Redis service, used for api rate limiting
+  redis:
+    image: redis:6.2-alpine
+    restart: always
+    ports:
+      - "6379:6379"
+    command: redis-server --save 20 1 --loglevel warning
+    volumes:
+      - type: bind
+        source: ./cache
+        target: /data
