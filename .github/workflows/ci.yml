@@ -24,11 +24,23 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - name: Install dependencies
-        run: npm install
-      - name: Run ${{matrix.submodule}} tests
+
+      # General branch: Install dependencies for all submodules and run all tests
+      - name: Install dependencies for ${{ matrix.submodule }}
+        if: "!startsWith(github.ref_name, 'feat/')"
+        run: |
+          cd ${{ matrix.submodule }} && npm install
+      - name: Run tests for ${{ matrix.submodule }}
+        if: "!startsWith(github.ref_name, 'feat/')"
+        run: |
+          cd ${{ matrix.submodule }} && npm test
+
+      # Feature branch: Install and test specific submodule
+      - name: Install dependencies for ${{ matrix.submodule }}
         if: startsWith(github.ref_name, format('feat/{0}', matrix.submodule))
-        run: npm run test:${{matrix.submodule}}
-      - name: Run all tests
-        if: "!startsWith(github.ref_name, 'feat/specific-feature')"
-        run: npm test
+        run: |
+          cd ${{ matrix.submodule }} && npm install
+      - name: Run tests for ${{ matrix.submodule }}
+        if: startsWith(github.ref_name, format('feat/{0}', matrix.submodule))
+        run: |
+          cd ${{ matrix.submodule }} && npm test
