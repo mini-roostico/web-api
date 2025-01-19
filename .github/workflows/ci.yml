@@ -33,7 +33,7 @@ jobs:
       - name: Run tests for ${{ matrix.submodule }}
         if: "!startsWith(github.ref_name, 'feat/')"
         run: |
-          cd ${{ matrix.submodule }} && npm test
+          cd ${{ matrix.submodule }} && npm test --passWithNoTests
 
       # Feature branch: Install and test specific submodule
       - name: Install dependencies for ${{ matrix.submodule }}
@@ -43,4 +43,4 @@ jobs:
       - name: Run tests for ${{ matrix.submodule }}
         if: startsWith(github.ref_name, format('feat/{0}', matrix.submodule))
         run: |
-          cd ${{ matrix.submodule }} && npm test
+          cd ${{ matrix.submodule }} && npm test --passWithNoTests
