@@ -1,0 +1,26 @@
+storage: /verdaccio/storage
+plugins: /verdaccio/plugins
+web:
+  title: Subjekt's official registry
+auth:
+  htpasswd:
+    file: ./htpasswd
+    algorithm: bcrypt
+  # type: bearer
+  # token_env: true # default env var `NPM_TOKEN`
+uplinks:
+  npmjs:
+    url: https://registry.npmjs.org/
+packages:
+  '@*/*':
+    access: $all
+    publish: $all
+    proxy: npmjs
+  '**':
+    access: $all
+    publish: $all
+    proxy: npmjs
+middlewares:
+  audit:
+    enabled: true
+log: { type: stdout, format: pretty, level: http }
