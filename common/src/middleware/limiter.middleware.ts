@@ -26,7 +26,7 @@ function getBaseEndpoint(endpoint: string): string {
  * @param rules
  * @param storage
  */
-export function apiLimiter(rules: ApiLimiterRule, storage: ApiLimiterStorage) {
+export function apiLimiter(rules: ApiLimiterEntry, storage: ApiLimiterStorage) {
     return async (req: Request, res: Response, next: NextFunction) => {
         const endpoint = getBaseEndpoint(req.path);
         const method = req.method;
