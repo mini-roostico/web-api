@@ -5,6 +5,7 @@ import {resolve} from "path";
 import {createServer, Server} from "node:http";
 import MongooseConfig from "./mongoose.config";
 import userRouter from "../routes/user.route";
+import sourceRoute from "../routes/source.route";
 
 const ServerConfig = (): Server => {
     JwtHandler.config({
@@ -28,6 +29,7 @@ const ServerConfig = (): Server => {
     });
 
     app.use("/users", userRouter);
+    app.use("/sources", sourceRoute);
 
     app.use(defaultResponseHandler);
     app.use(defaultErrorHandler);

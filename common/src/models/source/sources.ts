@@ -1,5 +1,4 @@
 import mongoose, {Model, Schema, Types} from "mongoose"
-import {AccessSource} from "./sources.access";
 
 type Func = (...args: any[]) => any
 
@@ -8,11 +7,10 @@ export interface ISource {
     macros?: Map<string, Func>,
     configurations?: Map<string, any[]>,
     user: Types.ObjectId,
-    sourceAsString?: string,
 }
 
 interface SourceDocumentType extends Model<ISource> {
-    getNotificationsForUser(userId: Types.ObjectId): Promise<ISource[]>;
+    getSourcesForUser(userId: Types.ObjectId): Promise<ISource[]>;
 }
 
 const Source = new Schema<ISource, SourceDocumentType>({
@@ -33,25 +31,10 @@ const Source = new Schema<ISource, SourceDocumentType>({
         ref: "Users",
         required: true,
     },
-    sourceAsString: {
-        type: String,
-        required: false,
-    }
 });
 
 Source.static('getSourcesForUser', async function getSourcesForUser(userId: Types.ObjectId){
-    const sourcesQueryPromise = this.find({
-        $or: [
-            { user: userId },
-            { user: { $exists: false } }
-        ]
-    }).lean().exec();
-    const accessSourceIdsPromise = AccessSource.find({ user: userId })
-        .distinct('source')
-        .exec();
-    const [sources, accessSourcesIds] = await Promise.all([sourcesQueryPromise, accessSourceIdsPromise])
-    const accessSourcesIdsString = accessSourcesIds.map(id => id.toString());
-    return sources.filter(source => accessSourcesIdsString.includes(source._id.toString()));
+    return this.find({ user: userId }).lean().exec();
 });
 
 const SourceModel = mongoose.model<ISource, SourceDocumentType>("Source", Source);

@@ -13,10 +13,6 @@ export {
     Source
 } from "./models/source/sources";
 
-export {
-    AccessSource
-} from "./models/source/sources.access";
-
 /**
  * Exporting errors
  */
