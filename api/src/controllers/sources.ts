@@ -14,7 +14,7 @@ export async function getSources(req: Request, res: Response, next: NextFunction
         );
     }
     try {
-        const sources: any = await Source.getNotificationsForUser(res.locals.user._id);
+        const sources: any = await Source.getSourcesForUser(res.locals.user._id);
         res.locals.code = StatusCodes.OK;
         res.locals.data = sources;
     } catch (err) {

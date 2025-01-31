@@ -4,7 +4,7 @@ import bcrypt from "bcryptjs"
 import {isEmail, isStrongPassword, isAlpha} from "validator";
 import { BadRequestError } from "../../errors/errors"
 
-const SALT_WORK_FACTOR: number = 10
+const SALT_WORK_FACTOR: number = 10;
 
 export interface IUser {
     email: string,
@@ -48,21 +48,21 @@ User.pre("save", function (next) {
     if (user.isModified("password") || user.isNew) {
         bcrypt.genSalt(SALT_WORK_FACTOR, function (error, salt) {
             if (error) {
-                return next(error)
+                return next(error);
             } else {
 
                 bcrypt.hash(user.password, salt, function(error, hash) {
                     if (error) {
-                        return next(error)
+                        return next(error);
                     }
 
-                    user.password = hash
-                    next()
+                    user.password = hash;
+                    next();
                 })
             }
         })
     } else {
-        return next()
+        return next();
     }
 });
 
@@ -72,17 +72,17 @@ User.pre("updateOne", function(next) {
     if (update.password) {
         bcrypt.genSalt(SALT_WORK_FACTOR, function (error, salt) {
             if (error) {
-                return next(error)
+                return next(error);
             } else {
 
                 bcrypt.hash(update.password, salt, function(error, hash) {
                     if (error) {
-                        return next(error)
+                        return next(error);
                     }
 
-                    update.password = hash
+                    update.password = hash;
                     context.setUpdate(update);
-                    next()
+                    next();
                 })
             }
         })
@@ -92,7 +92,7 @@ User.pre("updateOne", function(next) {
 });
 
 User.post("save", function(error: Error, doc: Document, next) {
-    if(error && error instanceof MongoError) {
+    if (error && error instanceof MongoError) {
         if (error.code === 11000) {
             return next(new BadRequestError('The entered email is already present'));
         }
