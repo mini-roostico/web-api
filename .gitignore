@@ -116,3 +116,17 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij
 
+**/node_modules/
+**/.DS_Store
+
+**/dist
+htpasswd
+
+dump.rdb
+secrets/
+
+dbdata/
+
+verdaccio/storage
+.test_secrets/at_private.pem
+.test_secrets/rt_private.pem
