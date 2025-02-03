@@ -9,8 +9,8 @@ import sourceRoute from "../routes/source.route";
 
 const ServerConfig = (): Server => {
     JwtHandler.config({
-        ATPrivateKeyPath: resolve("../.test_secret/at_private.pem"), // TODO Adjust to test secret path
-        RTPrivateKeyPath: resolve("../.test_secret/rt_private.pem") // Adjust to test secret path
+        ATPrivateKeyPath: resolve("./secrets/at_private.pem"), // TODO Adjust to test secret path
+        RTPrivateKeyPath: resolve("./secrets/rt_private.pem") // Adjust to test secret path
     });
 
     MongooseConfig();

@@ -5,7 +5,11 @@
   "main": "app.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --forceExit --runInBand",
+    "lint:fix": "eslint src/ --fix",
+    "lint:check": "eslint src/",
+    "format:write": "prettier --write src/",
+    "format:check": "prettier --check src/"
   },
   "author": "Francesco Magnagni, Luca Rubboli",
   "license": "ISC",
@@ -19,7 +23,13 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.13.0",
+    "jest": "^29.7.0",
     "typescript": "^5.7.3"
-  }
+  },
+  "pre-commit": [
+    "lint:check",
+    "format:check"
+  ]
 }

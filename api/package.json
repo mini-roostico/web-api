@@ -6,7 +6,11 @@
     "build": "tsc",
     "build:watch": "tsc -w",
     "test": "jest --forceExit --runInBand",
-    "start": "node dist/app.js"
+    "start": "node dist/app.js",
+    "lint:fix": "eslint src/ --fix",
+    "lint:check": "eslint src/",
+    "format:write": "prettier --write src/",
+    "format:check": "prettier --check src/"
   },
   "author": "Francesco Magnani, Luca Rubboli",
   "license": "ISC",
@@ -29,5 +33,9 @@
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.7.3"
-  }
+  },
+  "pre-commit": [
+    "lint:check",
+    "format:check"
+  ]
 }

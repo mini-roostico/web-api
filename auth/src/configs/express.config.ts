@@ -4,11 +4,10 @@ import express, {Application} from "express";
 import MongooseConfig from "./mongoose.config";
 import bodyParser from "body-parser";
 
-
 const ExpressConfig = (): Application => {
     JwtHandler.config({
-        ATPrivateKeyPath: resolve("../.test_secret/at_private.pem"),
-        RTPrivateKeyPath: resolve("../.test_secret/rt_private.pem"),
+        ATPrivateKeyPath: resolve("./secrets/at_private.pem"),
+        RTPrivateKeyPath: resolve("./secrets/rt_private.pem"),
     });
 
     MongooseConfig();

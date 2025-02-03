@@ -1,0 +1,138 @@
+{
+	"name": "bupper",
+	"versions": {
+		"0.1.0": {
+			"name": "bupper",
+			"description": "A Nodejs Buffer helper",
+			"version": "0.1.0",
+			"author": {
+				"name": "Shallker Wang",
+				"email": "shallker.wang@profero.com"
+			},
+			"main": "index",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shallker-wang/bupper"
+			},
+			"dependencies": {},
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/shallker-wang/bupper/issues"
+			},
+			"_id": "bupper@0.1.0",
+			"dist": {
+				"shasum": "2b0409c53a645a8cea164aa12a55fb4b03cac9a0",
+				"tarball": "https://registry.npmjs.org/bupper/-/bupper-0.1.0.tgz",
+				"integrity": "sha512-aItq9r6oP1q7wdTV2IYqrle+gtrsjFtSB+C26aL3U+Fazn32rrHjTtax9m789uCkuKpDYMUlCmiHPNuoq+nzew==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAqLiRyveVohqWVaLsaiJuV5nx2PVMwLc803o5U993boAiEA3M9LiRsH2NswqBvnuylE08FXuBRg/ck7xhfmbKP5AvA="
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.32",
+			"_npmUser": {
+				"name": "shallker-wang",
+				"email": "shallker.wang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "shallker-wang",
+					"email": "shallker.wang@gmail.com"
+				}
+			],
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "bupper",
+			"description": "A Nodejs Buffer helper",
+			"version": "2.0.0",
+			"author": {
+				"name": "Shallker",
+				"email": "imshallker@gmail.com"
+			},
+			"main": "index.js",
+			"keywords": [
+				"bupper"
+			],
+			"homepage": "https://github.com/shallker-wang/bupper",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/shallker-wang/bupper.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shallker-wang/bupper/issues"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"simple-test": "*"
+			},
+			"scripts": {},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "bupper@2.0.0",
+			"dist": {
+				"shasum": "355808dc3e8e871d42eabf13c365ecd15a30eb79",
+				"tarball": "https://registry.npmjs.org/bupper/-/bupper-2.0.0.tgz",
+				"integrity": "sha512-+qAnqze4wSAiTixXS+AMTC8axJ9o6nQNfPsRhpCxSRYUpYHdbcf5DC2xhz4eWuKrjTS9Z7j4mageXwf5Y0hfvQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFonxzUAWCgRVkX5+xRrjoacEpmK7VAmx5G9CwVuG3QtAiEA7T+CeBEwEWvWEaGnsIQJNbIQ7LdjZjsgf+u7PEG+Ri0="
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.32",
+			"_npmUser": {
+				"name": "shallker-wang",
+				"email": "shallker.wang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "shallker-wang",
+					"email": "shallker.wang@gmail.com"
+				}
+			],
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-06-13T05:19:21.570Z",
+		"created": "2013-09-20T22:16:30.786Z",
+		"0.1.0": "2013-09-20T22:16:36.485Z",
+		"2.0.0": "2013-10-19T16:56:44.411Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"6268be5990ab6a506304e06af86496fd\"",
+			"fetched": 1738534308172
+		}
+	},
+	"_distfiles": {
+		"bupper-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/bupper/-/bupper-0.1.0.tgz",
+			"sha": "2b0409c53a645a8cea164aa12a55fb4b03cac9a0",
+			"registry": "npmjs"
+		},
+		"bupper-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/bupper/-/bupper-2.0.0.tgz",
+			"sha": "355808dc3e8e871d42eabf13c365ecd15a30eb79",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"bupper-2.0.0.tgz": {
+			"shasum": "355808dc3e8e871d42eabf13c365ecd15a30eb79"
+		}
+	},
+	"_rev": "3-eb87b15361e6e983",
+	"_id": "bupper",
+	"readme": "bupper\n==========\n\nA Nodejs Buffer helper.\n\n## Installation\nUse npm:\n```shell\nnpm install git://github.com/shallker-wang/bupper.git\n```\n\nOr add to your package dependencies:\n```json\n{\n  \"dependencies\": {\n    \"bupper\": \"git://github.com/shallker-wang/bupper.git\"\n  }\n}\n```\n\n## Quick Start\nConcat buffer chunks with `.add(chunk)` and output them together using `.combine()`\n```javascript\nvar Bupper = require('bupper');\nvar http = require('http');\nhttp.createServer(function(req, res) {\n  req.on('data', function(chunk) {\n    Bupper.add(chunk);\n  });\n  req.on('end', function() {\n    console.log( Bupper.combine().toString() )\n  })\n}).listen(80);\n```\n\n## APIs\nConcat chunks:\n```javascript\nBupper.add(chunk)\n```\n\nOutput chunks:\n```javascript\nBupper.combine()\n```\n\n## Todo\n* write a test"
+}

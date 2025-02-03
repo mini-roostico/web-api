@@ -123,3 +123,6 @@ fabric.properties
 htpasswd
 
 dump.rdb
+secrets/
+
+dbdata/

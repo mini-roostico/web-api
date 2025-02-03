@@ -1,5 +1,7 @@
 FROM node:20-alpine
 
+ARG INTERNAL_GATEWAY
+
 WORKDIR /usr/src/app
 COPY package.json ./
 COPY tsconfig.json ./

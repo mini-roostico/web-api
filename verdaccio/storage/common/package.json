@@ -1,0 +1,611 @@
+{
+	"name": "common",
+	"versions": {
+		"0.1.0": {
+			"name": "common",
+			"version": "0.1.0",
+			"description": "A small utility package with some useful stuff",
+			"author": {
+				"name": "Mathias Buus Madsen",
+				"email": "mathiasbuus@gmail.com"
+			},
+			"main": "./index.js",
+			"_id": "common@0.1.0",
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "0.3.18",
+			"_nodeVersion": "v0.4.8",
+			"dist": {
+				"shasum": "500f1e33c728d3090642c6e8b97bcc658db3e6ca",
+				"tarball": "https://registry.npmjs.org/common/-/common-0.1.0.tgz",
+				"integrity": "sha512-KtUHvdTxpsl4RjyL0TcWtVelFaioCJXaZoRI/NigRQCwwhhgA7jK0thEe1NzYx5ipCHZkrzaW/FcGQeNtS4Lew==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFdyFO+udWudNRa6NGotymTfZVaWeDt4EObKAboYoon6AiEAyYq0gtCXb0/OUwP5ZJzCpXUoMlFCadEsd20UzUtAbWY="
+					}
+				]
+			},
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "common",
+			"version": "0.1.1",
+			"description": "A utility package with some useful functional stuff",
+			"author": {
+				"name": "Ge.tt",
+				"email": "hello@ge.tt"
+			},
+			"contributors": [
+				{
+					"name": "Mathias Buus Madsen",
+					"email": "m@ge.tt"
+				}
+			],
+			"main": "./index.js",
+			"_id": "common@0.1.1",
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "0.3.18",
+			"_nodeVersion": "v0.4.8",
+			"directories": {},
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "a3572deddeea0c35edb8fc94e67bf0ce64f19f52",
+				"tarball": "https://registry.npmjs.org/common/-/common-0.1.1.tgz",
+				"integrity": "sha512-oaWWuX7daFmUK/eLDyDti2NFvRku+V5mX17zBTgigtp6BfxBMfLFl+JgOoYfxO41D073wHaaIyK3T/VSuAQ9Tg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAF66/hjaXaQVSgOlx8x8UDdJoQKJegNZIbP4sI4GDwqAiEAoyavXkM99oMJINFZPsl4J59kuZ83X/jOWAVpUNTUkT4="
+					}
+				]
+			}
+		},
+		"0.1.2": {
+			"name": "common",
+			"version": "0.1.2",
+			"description": "A utility package with some useful functional stuff",
+			"author": {
+				"name": "Ge.tt",
+				"email": "hello@ge.tt"
+			},
+			"contributors": [
+				{
+					"name": "Mathias Buus Madsen",
+					"email": "m@ge.tt"
+				}
+			],
+			"main": "./index.js",
+			"_npmJsonOpts": {
+				"file": "/Users/maf/.npm/common/0.1.2/package/package.json",
+				"wscript": false,
+				"contributors": false,
+				"serverjs": false
+			},
+			"_id": "common@0.1.2",
+			"dependencies": {},
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.15",
+			"_nodeVersion": "v0.4.9",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "95d129c56dc9bd81bd5bec0ff88ac62dd6170865",
+				"tarball": "https://registry.npmjs.org/common/-/common-0.1.2.tgz",
+				"integrity": "sha512-kyCnWGIz4T1eIR5YNc6xnmkxYFC3qmbzd0OIFCQrjrcLN3zgkswys5Mxpgpt3JJLoMp3OE6w1ybRl2ilgvZ7Ug==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDjTfQS+eCsq1zeNnb82qluzueqYl+2zAJLxgxFeB9jtAiB6qsFzX8ynU6IYUIwH40CywUVgNbcuGl78OHWmY3Q63A=="
+					}
+				]
+			},
+			"scripts": {}
+		},
+		"0.1.3": {
+			"name": "common",
+			"version": "0.1.3",
+			"description": "A utility package with some useful functional stuff",
+			"author": {
+				"name": "Ge.tt",
+				"email": "hello@ge.tt"
+			},
+			"contributors": [
+				{
+					"name": "Mathias Buus Madsen",
+					"email": "m@ge.tt"
+				}
+			],
+			"main": "./index.js",
+			"_npmJsonOpts": {
+				"file": "/Users/maf/.npm/common/0.1.3/package/package.json",
+				"wscript": false,
+				"contributors": false,
+				"serverjs": false
+			},
+			"_id": "common@0.1.3",
+			"dependencies": {},
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.15",
+			"_nodeVersion": "v0.4.9",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "4a893fb2d57ff3af9a398ee085baff07926515ff",
+				"tarball": "https://registry.npmjs.org/common/-/common-0.1.3.tgz",
+				"integrity": "sha512-LHll5T3wZSHLtMyLrAqarzH0IPs77QAbuTYFCg2OOxl59YpyKWD5wIMRpsy7hTnDlXEL3ll8MM4ikU7FyOxmRw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGMd30k8fAhdWrm4kUIKM/u+iPMnj5eVOXRTqbLIDag+AiEA9S11jCGooc1OuQv8DcNbU7chS34CV/oklmz9FlTGChk="
+					}
+				]
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "mafintosh",
+					"email": "m@ge.tt"
+				}
+			]
+		},
+		"0.1.4": {
+			"name": "common",
+			"version": "0.1.4",
+			"description": "A utility package with some useful functional stuff",
+			"author": {
+				"name": "Ge.tt",
+				"email": "hello@ge.tt"
+			},
+			"contributors": [
+				{
+					"name": "Mathias Buus Madsen",
+					"email": "m@ge.tt"
+				}
+			],
+			"main": "./index.js",
+			"_npmJsonOpts": {
+				"file": "/Users/maf/.npm/common/0.1.4/package/package.json",
+				"wscript": false,
+				"contributors": false,
+				"serverjs": false
+			},
+			"_id": "common@0.1.4",
+			"dependencies": {},
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.15",
+			"_nodeVersion": "v0.4.9",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "b8f2411cc0224a64032bcc7b778814d76e10bece",
+				"tarball": "https://registry.npmjs.org/common/-/common-0.1.4.tgz",
+				"integrity": "sha512-lv+5Vp3pbb8J3sqmuIZCu8xHLqcu7eMfuD5QDljiXGbBgOzKqelbCxOCW3K2sfnLvGb/HERR8m1XNgyd31sr8A==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDyk+XJC/7DdpnSBKj21kccIrZsl3oH2vFUxwoNG/j+0wIge76gx+bwWKFT1JtsXIwhymcCUYHlOFyZNheYIuNw7/Y="
+					}
+				]
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "mafintosh",
+					"email": "m@ge.tt"
+				}
+			]
+		},
+		"0.2.0": {
+			"name": "common",
+			"version": "0.2.0",
+			"description": "A utility package with some useful functional stuff",
+			"author": {
+				"name": "Ge.tt",
+				"email": "hello@ge.tt"
+			},
+			"contributors": [
+				{
+					"name": "Mathias Buus Madsen",
+					"email": "m@ge.tt"
+				}
+			],
+			"main": "./index.js",
+			"_npmJsonOpts": {
+				"file": "/Users/maf/.npm/common/0.2.0/package/package.json",
+				"wscript": false,
+				"contributors": false,
+				"serverjs": false
+			},
+			"_id": "common@0.2.0",
+			"dependencies": {},
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.23",
+			"_nodeVersion": "v0.4.10",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "95dc43d3e53af23efb4579b35df710d81bf5f548",
+				"tarball": "https://registry.npmjs.org/common/-/common-0.2.0.tgz",
+				"integrity": "sha512-9JPL1Jaduo/31pQW0jRir2bUSHRg4KAzJkrL+dmCIcENCeTv/d540j6OOI1opwXBL9bXPz7REP9rt+2YSajn9w==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDNRZoncsZ6ANK3Rjez+nWvUWlXNS08UuSorsGzo5d4ewIhAI8KGtaufM3gvw+yriOt6MVeBqcrUlfq9oecTjTQs/5+"
+					}
+				]
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "mafintosh",
+					"email": "m@ge.tt"
+				},
+				{
+					"name": "ianjorgensen",
+					"email": "jorgensen.ian@gmail.com"
+				}
+			]
+		},
+		"0.2.1": {
+			"name": "common",
+			"version": "0.2.1",
+			"description": "A utility package with some useful functional stuff",
+			"author": {
+				"name": "Ge.tt",
+				"email": "hello@ge.tt"
+			},
+			"contributors": [
+				{
+					"name": "Mathias Buus Madsen",
+					"email": "m@ge.tt"
+				}
+			],
+			"main": "./index.js",
+			"_npmJsonOpts": {
+				"file": "/Users/maf/.npm/common/0.2.1/package/package.json",
+				"wscript": false,
+				"contributors": false,
+				"serverjs": false
+			},
+			"_id": "common@0.2.1",
+			"dependencies": {},
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.23",
+			"_nodeVersion": "v0.4.10",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "c537fb11aca1ce09c125d20e0033941bfc0a9454",
+				"tarball": "https://registry.npmjs.org/common/-/common-0.2.1.tgz",
+				"integrity": "sha512-nz15NPiAnhp7XZS9Be5mFVwextC5c6tK/udWbTyEq2bKdVnh5S0mOUUTRh6QcNWVgQtcMqvDywT/CNrLRTckHg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDZoGKUlKWFn3qbXrPndL/4VBQYPuKOpxvD9+gPcZ967AIhAL3HMlvun+6K5hNBJRICXmaXdauK8m6f6cu4lrKUnpYi"
+					}
+				]
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "mafintosh",
+					"email": "m@ge.tt"
+				},
+				{
+					"name": "ianjorgensen",
+					"email": "jorgensen.ian@gmail.com"
+				}
+			]
+		},
+		"0.2.3": {
+			"name": "common",
+			"version": "0.2.3",
+			"description": "A utility package with some useful functional stuff",
+			"author": {
+				"name": "Ge.tt",
+				"email": "hello@ge.tt"
+			},
+			"contributors": [
+				{
+					"name": "Mathias Buus Madsen",
+					"email": "m@ge.tt"
+				}
+			],
+			"main": "./index.js",
+			"readmeFilename": "README.md",
+			"_id": "common@0.2.3",
+			"dist": {
+				"shasum": "f0930ffd7f63192d24cbb7251495c520c64d35c4",
+				"tarball": "https://registry.npmjs.org/common/-/common-0.2.3.tgz",
+				"integrity": "sha512-HItdIbNNMxl/WdAszXKySCYmqW/DFweChEsGX0WHCtqUxc71dF6DJiHwfnCD0glhEVP3Jkskqoq19Zz/nhY5hw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCctg82ofTKAyd/8Vk3+hCu+vWaBGsj+nA76eu8Fr83NQIgaRl006XZGyK36KAt2HWihOlalS2w0mMbdU3sp/G+T30="
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.18",
+			"_npmUser": {
+				"name": "mafintosh",
+				"email": "mathiasbuus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mafintosh",
+					"email": "m@ge.tt"
+				},
+				{
+					"name": "ianjorgensen",
+					"email": "jorgensen.ian@gmail.com"
+				}
+			]
+		},
+		"0.2.4": {
+			"name": "common",
+			"version": "0.2.4",
+			"description": "A utility package with some useful functional stuff",
+			"author": {
+				"name": "Ge.tt",
+				"email": "hello@ge.tt"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gett/common.git"
+			},
+			"contributors": [
+				{
+					"name": "Mathias Buus Madsen",
+					"email": "m@ge.tt"
+				}
+			],
+			"main": "./index.js",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/gett/common/issues"
+			},
+			"_id": "common@0.2.4",
+			"dist": {
+				"shasum": "ad3c683c4f398bec692a6aea4df6878224029cb1",
+				"tarball": "https://registry.npmjs.org/common/-/common-0.2.4.tgz",
+				"integrity": "sha512-07TcTIY154BCeZND1kFkaC6kJiMVzuNLLjyXxsE88nyNeo5WcgBM7/d/nSQyMvO0wobVrcl0Jj4A5+CwuhO6RQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDQtLjxCm2jFC6WLzSZaScwPu0fo2W9W+zWU68YakKt8gIhAO/wYCclbteA+rzrtfVvFr6leVJTXUqVIzHDNiRpxP+i"
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.5",
+			"_npmUser": {
+				"name": "mafintosh",
+				"email": "mathiasbuus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mafintosh",
+					"email": "m@ge.tt"
+				},
+				{
+					"name": "ianjorgensen",
+					"email": "jorgensen.ian@gmail.com"
+				}
+			]
+		},
+		"0.2.5": {
+			"name": "common",
+			"version": "0.2.5",
+			"description": "A utility package with some useful functional stuff",
+			"author": {
+				"name": "Ge.tt",
+				"email": "hello@ge.tt"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gett/common.git"
+			},
+			"contributors": [
+				{
+					"name": "Mathias Buus Madsen",
+					"email": "m@ge.tt"
+				}
+			],
+			"main": "./index.js",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/gett/common/issues"
+			},
+			"_id": "common@0.2.5",
+			"dist": {
+				"shasum": "3c7182f678bd1e3681cd5cc348c759fe8dd22394",
+				"tarball": "https://registry.npmjs.org/common/-/common-0.2.5.tgz",
+				"integrity": "sha512-bjuztiY8Wcz2V9dPpa0XdF0unGWqAGsnyKDGV7g6xDcaZfpufRrxV35qhuhjwv1h0jEPeiCHWKAQFLj702jGnA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDdItp+AAnOI+7idkc+Aj7qSONAR/6z7wjx16Bk+907uwIgN/g/HttIn1g3gxON7S+Vpe/g6K7xJJv2RdQKMZGcsPI="
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "mafintosh",
+				"email": "mathiasbuus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mafintosh",
+					"email": "m@ge.tt"
+				},
+				{
+					"name": "ianjorgensen",
+					"email": "jorgensen.ian@gmail.com"
+				}
+			]
+		},
+		"1.0.4": {
+			"name": "common",
+			"version": "1.0.4",
+			"description": "Common components shared between different Javascript's services of the organization",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"files": [
+				"/dist"
+			],
+			"scripts": {
+				"build": "tsc",
+				"test": "jest --forceExit --runInBand"
+			},
+			"author": {
+				"name": "Francesco Magnani, Luca Rubboli"
+			},
+			"license": "ISC",
+			"publishConfig": {
+				"registry": "http://localhost:4873"
+			},
+			"dependencies": {
+				"bcryptjs": "^2.4.3",
+				"express": "^4.21.2",
+				"express-validator": "^7.2.1",
+				"http-status-codes": "^2.3.0",
+				"jsonwebtoken": "^9.0.2",
+				"mongodb": "^6.12.0",
+				"mongodb-memory-server": "^10.1.3",
+				"mongoose": "^8.9.4",
+				"validator": "^13.12.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^29.5.14",
+				"@types/node": "^22.10.6",
+				"jest": "^29.7.0",
+				"ts-jest": "^29.2.5",
+				"ts-node": "^10.9.2",
+				"ts-node-dev": "^2.0.0",
+				"typescript": "^5.7.3"
+			},
+			"_id": "common@1.0.4",
+			"gitHead": "f2c02da1a22fbbdecbe2218c3a6fc55fac4c61ae",
+			"_nodeVersion": "23.6.0",
+			"_npmVersion": "10.9.2",
+			"dist": {
+				"integrity": "sha512-KccTbGjm3HlsbcbgqGhBH+O8iPz6ifhKYbN7dwj8X2VhZfkgl89E9fNE+blMiy1WhOMWOa2hqyZoP8jyNCDjrA==",
+				"shasum": "a60d17fa6d61aeac5fd7c97a81141e3143c14f26",
+				"tarball": "http://localhost:4873/common/-/common-1.0.4.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2025-02-03T11:02:14.632Z",
+		"created": "2011-06-18T11:43:19.591Z",
+		"0.1.0": "2011-06-18T11:43:20.059Z",
+		"0.1.1": "2011-06-22T20:17:36.556Z",
+		"0.1.2": "2011-07-23T18:22:43.620Z",
+		"0.1.3": "2011-08-03T23:20:23.188Z",
+		"0.1.4": "2011-08-06T15:26:13.234Z",
+		"0.2.0": "2011-08-31T17:12:33.062Z",
+		"0.2.1": "2011-08-31T17:28:47.085Z",
+		"0.2.3": "2013-05-23T07:33:29.210Z",
+		"0.2.4": "2013-08-15T09:05:42.272Z",
+		"0.2.5": "2013-08-21T12:33:01.123Z",
+		"1.0.4": "2025-02-03T11:02:14.632Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.4"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"0995631a0c0a9c61d8358e9474875d57\"",
+			"fetched": 1738580459615
+		}
+	},
+	"_distfiles": {
+		"common-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/common/-/common-0.1.0.tgz",
+			"sha": "500f1e33c728d3090642c6e8b97bcc658db3e6ca",
+			"registry": "npmjs"
+		},
+		"common-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/common/-/common-0.1.1.tgz",
+			"sha": "a3572deddeea0c35edb8fc94e67bf0ce64f19f52",
+			"registry": "npmjs"
+		},
+		"common-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/common/-/common-0.1.2.tgz",
+			"sha": "95d129c56dc9bd81bd5bec0ff88ac62dd6170865",
+			"registry": "npmjs"
+		},
+		"common-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/common/-/common-0.1.3.tgz",
+			"sha": "4a893fb2d57ff3af9a398ee085baff07926515ff",
+			"registry": "npmjs"
+		},
+		"common-0.1.4.tgz": {
+			"url": "https://registry.npmjs.org/common/-/common-0.1.4.tgz",
+			"sha": "b8f2411cc0224a64032bcc7b778814d76e10bece",
+			"registry": "npmjs"
+		},
+		"common-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/common/-/common-0.2.0.tgz",
+			"sha": "95dc43d3e53af23efb4579b35df710d81bf5f548",
+			"registry": "npmjs"
+		},
+		"common-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/common/-/common-0.2.1.tgz",
+			"sha": "c537fb11aca1ce09c125d20e0033941bfc0a9454",
+			"registry": "npmjs"
+		},
+		"common-0.2.3.tgz": {
+			"url": "https://registry.npmjs.org/common/-/common-0.2.3.tgz",
+			"sha": "f0930ffd7f63192d24cbb7251495c520c64d35c4",
+			"registry": "npmjs"
+		},
+		"common-0.2.4.tgz": {
+			"url": "https://registry.npmjs.org/common/-/common-0.2.4.tgz",
+			"sha": "ad3c683c4f398bec692a6aea4df6878224029cb1",
+			"registry": "npmjs"
+		},
+		"common-0.2.5.tgz": {
+			"url": "https://registry.npmjs.org/common/-/common-0.2.5.tgz",
+			"sha": "3c7182f678bd1e3681cd5cc348c759fe8dd22394",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"common-1.0.4.tgz": {
+			"shasum": "a60d17fa6d61aeac5fd7c97a81141e3143c14f26",
+			"version": "1.0.4"
+		}
+	},
+	"_rev": "84-9b766bb563518918",
+	"_id": "common",
+	"readme": "ERROR: No README data found!"
+}

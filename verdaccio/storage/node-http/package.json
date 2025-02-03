@@ -1,0 +1,344 @@
+{
+	"name": "node-http",
+	"versions": {
+		"0.0.1": {
+			"name": "node-http",
+			"description": "node-http.",
+			"version": "0.0.1",
+			"author": {
+				"name": "Shallker",
+				"email": "imshallker@gmail.com"
+			},
+			"main": "index.js",
+			"keywords": [
+				"node-http"
+			],
+			"homepage": "https://github.com/shallker/node-http",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/shallker/node-http.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shallker/node-http/issues"
+			},
+			"dependencies": {
+				"eventy": "*",
+				"bupper": "*",
+				"reges": "*"
+			},
+			"devDependencies": {
+				"simple-test": "*"
+			},
+			"scripts": {},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "node-http@0.0.1",
+			"dist": {
+				"shasum": "ad6da405f7bb893c2371218e508f2a8674927aaa",
+				"tarball": "https://registry.npmjs.org/node-http/-/node-http-0.0.1.tgz",
+				"integrity": "sha512-bTlkj9EX5aHmFOh1MmPFpKxlDSnu26twr3MJRYL3IjaNJStbH8K1qbqD2A1alNux7KplgXMFvgDodZ3L4AAvCQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFTIVGcvXJ7KID2kMh5wDSnxoYkIyj34BMy/VnV5/o7EAiAC8TbbA9ORWPnAFf+yP3gaIPpJeb2Jje0379kQlILJGA=="
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.32",
+			"_npmUser": {
+				"name": "shallker-wang",
+				"email": "shallker.wang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "shallker-wang",
+					"email": "shallker.wang@gmail.com"
+				}
+			],
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "node-http",
+			"description": "node-http.",
+			"version": "0.0.2",
+			"author": {
+				"name": "Shallker",
+				"email": "imshallker@gmail.com"
+			},
+			"main": "index.js",
+			"keywords": [
+				"node-http"
+			],
+			"homepage": "https://github.com/shallker/node-http",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/shallker/node-http.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shallker/node-http/issues"
+			},
+			"dependencies": {
+				"eventy": "*",
+				"bupper": "*",
+				"reges": "*"
+			},
+			"devDependencies": {
+				"simple-test": "*"
+			},
+			"scripts": {},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "node-http@0.0.2",
+			"dist": {
+				"shasum": "3d459e8de68baf0a4b4f8ea99cede30bfa37a699",
+				"tarball": "https://registry.npmjs.org/node-http/-/node-http-0.0.2.tgz",
+				"integrity": "sha512-j11Vy5trLN8CEdGwoT7rsdbgXfLLIuX7kVaOg6eolDzGctSy1+3/ZG+If13CxCHBY5Gm0xtS5k9VOsW+G5XR7g==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDKe/mEH4ZGjfYZi7sgHs/AVa0quTBiTioLx/ZRVnskSgIgJxkdOuffZXR2bpIoJ8PSUS/weVNFPeG229pY9J2oGiE="
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.32",
+			"_npmUser": {
+				"name": "shallker-wang",
+				"email": "shallker.wang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "shallker-wang",
+					"email": "shallker.wang@gmail.com"
+				}
+			],
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "node-http",
+			"description": "node-http.",
+			"version": "0.0.3",
+			"author": {
+				"name": "Shallker",
+				"email": "imshallker@gmail.com"
+			},
+			"main": "index.js",
+			"keywords": [
+				"node-http"
+			],
+			"homepage": "https://github.com/shallker/node-http",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/shallker/node-http.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shallker/node-http/issues"
+			},
+			"dependencies": {
+				"eventy": "*",
+				"bupper": "*",
+				"reges": "*"
+			},
+			"devDependencies": {
+				"simple-test": "*"
+			},
+			"scripts": {},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "node-http@0.0.3",
+			"dist": {
+				"shasum": "a92af4323dd64e5ca99591f8aaf543c73dea1a63",
+				"tarball": "https://registry.npmjs.org/node-http/-/node-http-0.0.3.tgz",
+				"integrity": "sha512-Bf50DDS6ulClBKH6/5NDykXmtZVXPIZwVDUhfIwWR3PCBjicyykMgOh/XO7bGSjAG4yni1qkZUVCwyd0xLDKbg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAkIZZDCdRXJG3C1qs+r2eUCQy0HvRBpvYlWBrzw1jM+AiEA98vLNSEl3fQdkVKC/x7Rg1UP8+I/+iWvKfJ9GZBzRqM="
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.32",
+			"_npmUser": {
+				"name": "shallker-wang",
+				"email": "shallker.wang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "shallker-wang",
+					"email": "shallker.wang@gmail.com"
+				}
+			],
+			"contributors": []
+		},
+		"0.0.4": {
+			"name": "node-http",
+			"description": "node-http.",
+			"version": "0.0.4",
+			"author": {
+				"name": "Shallker",
+				"email": "imshallker@gmail.com"
+			},
+			"main": "index.js",
+			"keywords": [
+				"node-http"
+			],
+			"homepage": "https://github.com/shallker/node-http",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/shallker/node-http.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shallker/node-http/issues"
+			},
+			"dependencies": {
+				"eventy": "*",
+				"bupper": "*",
+				"reges": "*"
+			},
+			"devDependencies": {
+				"simple-test": "*"
+			},
+			"scripts": {},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "node-http@0.0.4",
+			"dist": {
+				"shasum": "9e95a09e8b65ab37dc2b459d0f2e6258fa4cb27a",
+				"tarball": "https://registry.npmjs.org/node-http/-/node-http-0.0.4.tgz",
+				"integrity": "sha512-g1tMJNQyYVKCoLvE6+2hQkFE7Qet59at+/5BaFaaQvXp4pOreGsc00sL0nw5UVQdG1uOLWelXREdYxuW5PswoA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDCmhpRBZ4OBLPC5qadopaeJDUGleTHLEAYFsuQqQ71LAIhAL+ugUHYRXbUYu48JAsKTVLGvTAwL0fmXurWVmS+Ki42"
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.32",
+			"_npmUser": {
+				"name": "shallker-wang",
+				"email": "shallker.wang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "shallker-wang",
+					"email": "shallker.wang@gmail.com"
+				}
+			],
+			"contributors": []
+		},
+		"0.0.5": {
+			"name": "node-http",
+			"description": "node-http.",
+			"version": "0.0.5",
+			"author": {
+				"name": "Shallker",
+				"email": "imshallker@gmail.com"
+			},
+			"main": "index.js",
+			"keywords": [
+				"node-http"
+			],
+			"homepage": "https://github.com/shallker/node-http",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/shallker/node-http.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shallker/node-http/issues"
+			},
+			"dependencies": {
+				"eventy": "*",
+				"bupper": "*",
+				"reges": "*"
+			},
+			"devDependencies": {
+				"simple-test": "*"
+			},
+			"scripts": {},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "node-http@0.0.5",
+			"dist": {
+				"shasum": "5f506cfab89422f59eeedcb68e8b49aa2e8a52a1",
+				"tarball": "https://registry.npmjs.org/node-http/-/node-http-0.0.5.tgz",
+				"integrity": "sha512-wmt/GCOR502I6iGUx4utpQytTUfSag+WsEFpnVfCqdx2p/iVCV8RJqshvuUHUWxSjR8USx1poJ+hdQAaDzYC5w==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIF0ZVW4Sd6P0g09Um9vL3UBHE7B/i5qxHCNAfjTTXgRXAiAtaF7FAiMROWyoD9Kd8evOqhe+TTHKJBpi/JPLI7lGaQ=="
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.32",
+			"_npmUser": {
+				"name": "shallker-wang",
+				"email": "shallker.wang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "shallker-wang",
+					"email": "shallker.wang@gmail.com"
+				}
+			],
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-06-21T15:35:30.439Z",
+		"created": "2013-10-19T10:26:00.603Z",
+		"0.0.1": "2013-10-19T10:26:06.645Z",
+		"0.0.2": "2013-10-19T10:41:09.238Z",
+		"0.0.3": "2013-10-19T16:02:01.426Z",
+		"0.0.4": "2013-10-19T16:59:19.375Z",
+		"0.0.5": "2013-10-23T10:00:39.662Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.0.5"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5597e5062f9d16034fac16c7133cff05\"",
+			"fetched": 1738534302449
+		}
+	},
+	"_distfiles": {
+		"node-http-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/node-http/-/node-http-0.0.1.tgz",
+			"sha": "ad6da405f7bb893c2371218e508f2a8674927aaa",
+			"registry": "npmjs"
+		},
+		"node-http-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/node-http/-/node-http-0.0.2.tgz",
+			"sha": "3d459e8de68baf0a4b4f8ea99cede30bfa37a699",
+			"registry": "npmjs"
+		},
+		"node-http-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/node-http/-/node-http-0.0.3.tgz",
+			"sha": "a92af4323dd64e5ca99591f8aaf543c73dea1a63",
+			"registry": "npmjs"
+		},
+		"node-http-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/node-http/-/node-http-0.0.4.tgz",
+			"sha": "9e95a09e8b65ab37dc2b459d0f2e6258fa4cb27a",
+			"registry": "npmjs"
+		},
+		"node-http-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/node-http/-/node-http-0.0.5.tgz",
+			"sha": "5f506cfab89422f59eeedcb68e8b49aa2e8a52a1",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"node-http-0.0.5.tgz": {
+			"shasum": "5f506cfab89422f59eeedcb68e8b49aa2e8a52a1"
+		}
+	},
+	"_rev": "2-b9ca0d1b3532d5c4",
+	"_id": "node-http",
+	"readme": "node-http\n==========\n\nUnify http interface in Node.\n\n## Installation\n```shell\nnpm install node-http\n```\n\n## API\n```javascript\nvar NodeHttp = require('node-http');\nvar nodeHttp = new Http;\n```\n\n#### .url(String address)\n\n#### .header(String name, String value)\n\n#### .data(Mix data)\n\n#### .method(String name)\n\n#### .on(String event, Function callback)\n\n#### .off(String event, Function callback)\n\n#### .complete(Function callback)\n\n#### .success(Function callback)\n\n#### .fail(Function callback)\n\n#### .GET(String address, [Function onComplete], [Function onError])\n\n#### .POST(String address, Mix data, [Function onComplete], [Function onError])\n\n#### .request(Object options, [Function onComplete], [Function onError])\n\n## Events\n#### 'complete'\n#### 'success'\n#### 'fail'\n\n#### 'buffer'\n```javascript\nnodeHttp.on('buffer', function (buffer) {\n\n});\n```\n\n#### 'responseText'\nnodeHttp.on('responseText', function (responseText) {\n\n});\n```\n\n#### status code\n```javascript\nnodeHttp.on(200, function (response) {\n  \n});\n```\n\n#### status name\n```javascript\nnodeHttp.on('Ok', function (response) {\n\n});\n\nnodeHttp.on('Not Found', function (response) {\n\n});\n```\n\n## License\n\n  MIT"
+}
