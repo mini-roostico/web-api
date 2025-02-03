@@ -1,0 +1,46 @@
+name: CI of the whole repository
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - feat/** # Target feature branches
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        submodule: [ api, common ]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      # General branch: Install dependencies for all submodules and run all tests
+      - name: Install dependencies for ${{ matrix.submodule }}
+        if: "!startsWith(github.ref_name, 'feat/')"
+        run: |
+          cd ${{ matrix.submodule }} && npm install
+      - name: Run tests for ${{ matrix.submodule }}
+        if: "!startsWith(github.ref_name, 'feat/')"
+        run: |
+          cd ${{ matrix.submodule }} && npm test --passWithNoTests
+
+      # Feature branch: Install and test specific submodule
+      - name: Install dependencies for ${{ matrix.submodule }}
+        if: startsWith(github.ref_name, format('feat/{0}', matrix.submodule))
+        run: |
+          cd ${{ matrix.submodule }} && npm install
+      - name: Run tests for ${{ matrix.submodule }}
+        if: startsWith(github.ref_name, format('feat/{0}', matrix.submodule))
+        run: |
+          cd ${{ matrix.submodule }} && npm test --passWithNoTests

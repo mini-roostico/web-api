@@ -1,0 +1,35 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "JWT-based authentication module for handling user sessions, access control, and token verification.",
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --forceExit --runInBand",
+    "lint:fix": "eslint src/ --fix",
+    "lint:check": "eslint src/",
+    "format:write": "prettier --write src/",
+    "format:check": "prettier --check src/"
+  },
+  "author": "Francesco Magnagni, Luca Rubboli",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "common": "^1.0.4",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.6",
+    "path": "^0.12.7",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.0",
+    "jest": "^29.7.0",
+    "typescript": "^5.7.3"
+  },
+  "pre-commit": [
+    "lint:check",
+    "format:check"
+  ]
+}

@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc -w",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --forceExit --runInBand",
     "start": "node dist/app.js",
     "lint:fix": "eslint src/ --fix",
     "lint:check": "eslint src/",
@@ -21,10 +21,20 @@
   "license": "ISC",
   "description": "API Server for subjekt project",
   "dependencies": {
-    "express": "^4.21.2"
+    "accesscontrol": "^2.2.1",
+    "common": "^1.0.4",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "http-status-codes": "^2.3.0",
+    "mongoose": "^8.9.5",
+    "node-http": "^0.0.5",
+    "redis": "^4.7.0"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.10.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.7.3",
